@@ -1,0 +1,79 @@
+input[type=text] {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  
+  border-bottom: 1px solid red;
+}
+
+
+/*
+ * Formatting the header area
+ */
+header {
+  background-color: #9b4ee4;
+  height: 45px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+header h1.logo {
+  margin: 0;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+}
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*
+ * Centering the body content
+ */
+.container1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+  float: right;
+  color: rgb(231, 18, 18);
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(112, 224, 136);
+    background-color: #5eee60;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .btn:hover {background-color: #0eec15}
+  
+  .btn:active {
+    background-color: #309434;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  

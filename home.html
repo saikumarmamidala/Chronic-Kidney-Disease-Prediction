@@ -1,0 +1,52 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+ <link rel="stylesheet" href="{{ url_for('static', filename='q.css') }}">
+</head>
+<body style="  background-image: url({{url_for('static',filename='kidney2.jpg')}});">
+<div class="container">
+  <div class="card">
+    <h4 class="title">Basic characteristics to identify initial symptoms of CKD:<br><br>Are You suffering from???</h>
+      
+    
+    <div ><ol><li>High Blood pressure?</li>
+<li>diabetes mellitus type 1 or type 2?</li>
+<li>hypertension?</li>
+<li>cardiovascular disease (CVD)?</li>
+<li>Any family history of kidney failure?</li>
+        </ol></div>
+  </div> 
+    <div class="card">
+    <div class="bar">
+    <div class="filledbar"></div>
+    <div style="color:white;line-height: 50px; width: 300px;">If your answer is yes to all of the above please make sure of tests<br></div>
+    <div>
+    <ol style="color:white">
+     <li>Haemoglobin(hemo)</li>
+    <li>Specific gravity(sg)</li>
+<li>hypertension(htn)</li>
+<li>diabetes mellitus(dm)</li>
+<li>packed cell volume(pcv)</li>
+<li>albumin(al)</li>
+<li>serum creatinine(sc)</li>
+<li>blood glucose random(bgr)</li>
+</ol></div>
+<div style="color:white">which are the major tests that determine whether you are suffering from chronic kidney disease or not...by using this web app <br><br>
+</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="bar">
+      <div ></div>
+      <div ></div>
+    </div>
+    <div class="circle">
+      <svg  height="195" width="195" version="1.1" xmlns="http://www.w3.org/2000/svg"><g>
+  <circle class="stroke" cx="100" cy="100" r="80" stroke="black" stroke-width="3" fill="red"/>
+  <text style="color:red" x="50%" y="50%" text-anchor="middle" dy=".3em"><a href={{ url_for('index') }}>Predict your CKD</a></text></g> 
+</svg> 
+     </div>
+  </div>
+</div>
+</body>
+</html>
